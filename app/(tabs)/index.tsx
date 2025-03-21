@@ -28,8 +28,10 @@ export default function HomeScreen() {
         <ThemedText type="title">Device Info</ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">API Level</ThemedText>
-        <ThemedText>{DeviceInfo.getApiLevelSync()}</ThemedText>
+        <ThemedText type="subtitle">API Level | System Version</ThemedText>
+        <ThemedText>
+          {DeviceInfo.getApiLevelSync()} | {DeviceInfo.getSystemVersion()}
+        </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Total Memory</ThemedText>
@@ -43,7 +45,9 @@ export default function HomeScreen() {
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Power State</ThemedText>
-        <ThemedText>{JSON.stringify(DeviceInfo.getPowerStateSync(), null, 2)}</ThemedText>
+        <ThemedText>
+          {JSON.stringify(DeviceInfo.getPowerStateSync(), null, 2)}
+        </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Device has low RAM</ThemedText>
