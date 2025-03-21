@@ -9,7 +9,9 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.frankcalise.deviceinfo",
+      "appleTeamId": "5Y63GF5458"
     },
     "android": {
       "adaptiveIcon": {
