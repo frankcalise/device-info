@@ -22,6 +22,7 @@ Exploring options out there to determine if a device is low/high end for perf be
 | ---- | ---- | ---- |
 | Pixel 4 | ![image](https://github.com/user-attachments/assets/071e2463-cb0c-4ebb-a63d-67b85264b00a) | ![image](https://github.com/user-attachments/assets/7d32d6ab-38e6-4265-bb68-abf39f329b94) |
 | Pixel 7 | ![image](https://github.com/user-attachments/assets/bc0c3fda-6250-4319-9b07-b43862053644) | ![image](https://github.com/user-attachments/assets/e528a007-f766-49cf-a7ed-92697d30c3d4) |
+| Pixel 9 Pro | ![image](https://github.com/user-attachments/assets/af38d3c0-fe90-4f18-a82d-c5f8ad02ad1b) | ![image](https://github.com/user-attachments/assets/b3a8491a-bbfa-4eed-9264-4867e6786874) |
 | Samsung Galaxy A12 | ![image](https://github.com/user-attachments/assets/e301d68a-8131-4ff9-b246-4f6fba12bbe4) | ![image](https://github.com/user-attachments/assets/dc39e146-556b-4c96-b641-178fb16279a3) |
 
 
