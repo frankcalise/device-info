@@ -3957,6 +3957,7 @@ __metadata:
     expo: "npm:~52.0.40"
     expo-blur: "npm:~14.0.3"
     expo-constants: "npm:~17.0.8"
+    expo-device: "npm:~7.0.2"
     expo-font: "npm:~13.0.4"
     expo-haptics: "npm:~14.0.1"
     expo-linking: "npm:~7.0.5"
@@ -4384,6 +4385,17 @@ __metadata:
     expo: "*"
     react-native: "*"
   checksum: 10c0/474a476150cc14467e69053295f8f8f07a9a1b9847ff34be3cdef547e7e7e2473ca05d82a0a377b951f4c3ebabd2c047c0709654347f2d7f14b4cb736e7b79c1
+  languageName: node
+  linkType: hard
+
+"expo-device@npm:~7.0.2":
+  version: 7.0.2
+  resolution: "expo-device@npm:7.0.2"
+  dependencies:
+    ua-parser-js: "npm:^0.7.33"
+  peerDependencies:
+    expo: "*"
+  checksum: 10c0/08e19c344710551c3e4726c679048cd44015f654ceed2680158ff0886a9a4173747a210b3ddd896bf4feb18744de43385bfd4c9f643adfe91d82d899d3c8adaf
   languageName: node
   linkType: hard
 
@@ -9491,6 +9503,15 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 10c0/5448a08e595cc558ab321e49d4cac64fb43d1fa106584f6ff9a8d8e592111b373a995a1d5c7f3046211c8a37201eb6d0f1566f15cdb7a62a5e3be01d087848e2
+  languageName: node
+  linkType: hard
+
+"ua-parser-js@npm:^0.7.33":
+  version: 0.7.40
+  resolution: "ua-parser-js@npm:0.7.40"
+  bin:
+    ua-parser-js: script/cli.js
+  checksum: 10c0/d114f0b71b5b0106dcc0cb7cc26a44690073e886fa1444f8c03131d4f57b3f6645f9fb7b308b0aaaa5a2774461f9e8fe1a2a1c3ff69aa531316fcf14cd44dbe3
   languageName: node
   linkType: hard
 
