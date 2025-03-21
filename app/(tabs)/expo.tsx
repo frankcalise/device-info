@@ -23,6 +23,10 @@ export default function TabTwoScreen() {
         <ThemedText type="subtitle">Year Class</ThemedText>
         <ThemedText>{Device.deviceYearClass}</ThemedText>
       </ThemedView>
+      <ThemedView style={styles.stepContainer}>
+        <ThemedText type="subtitle">Total Memory</ThemedText>
+        <ThemedText>{Math.round((Device.totalMemory ?? 0) / 1024 / 1024 / 1024)} GB</ThemedText>
+      </ThemedView>
     </ParallaxScrollView>
   );
 }

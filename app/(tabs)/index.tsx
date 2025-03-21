@@ -38,14 +38,16 @@ export default function HomeScreen() {
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
-        <ThemedText>
-          When you're ready, run{" "}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{" "}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{" "}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{" "}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
-        </ThemedText>
+        <ThemedText type="subtitle">Battery Level</ThemedText>
+        <ThemedText>{DeviceInfo.getBatteryLevelSync()}</ThemedText>
+      </ThemedView>
+      <ThemedView style={styles.stepContainer}>
+        <ThemedText type="subtitle">Power State</ThemedText>
+        <ThemedText>{JSON.stringify(DeviceInfo.getPowerStateSync(), null, 2)}</ThemedText>
+      </ThemedView>
+      <ThemedView style={styles.stepContainer}>
+        <ThemedText type="subtitle">Device has low RAM</ThemedText>
+        <ThemedText>{DeviceInfo.isLowRamDevice().toString()}</ThemedText>
       </ThemedView>
     </ParallaxScrollView>
   );
